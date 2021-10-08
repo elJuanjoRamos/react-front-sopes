@@ -1,0 +1,65 @@
+
+
+
+.name {
+font-weight: bold;
+margin-bottom: 4px;
+font-size: 1.2em;
+margin-top: 5px;
+}
+
+.username {
+color: grey;
+font-size: 0.8em;
+}
+
+.tweet {
+/* border: 1px grey solid; */
+margin: 0 auto;
+margin-top: 20;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.0), 0 6px 6px rgba(0, 0, 0, 0.1);
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+}
+
+.tweetBody {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.socialBar > span {
+margin-right: 20px;
+}
+
+.tweetBody {
+font-size: 15px;
+
+}
+
+.link {
+color: rgba(29,161,242,1.00) !important;
+}
+
+.activity {
+display: flex;
+margin-top: 6px;
+margin-bottom: 6px;
+}
+
+.activityCount {
+display: flex;
+}
+
+.subLabel {
+margin-right: 25px;
+font-size: 15px;
+color: grey;
+
+}
+.dateTime {
+    font-size: 14px;
+    color: grey;
+}
+
