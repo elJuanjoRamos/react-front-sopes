@@ -14,7 +14,7 @@ const ReportesAzure = () => {
     const [dates, setDates] = useState([])
     const [tweets, setTweets] = useState([])
 
-    var socket = openSocket('http://localhost:4200');
+    var socket = openSocket('http://34.71.233.178:4200');
     useEffect(()=> {
         setTimeout(() => {
             socket.emit('getNoticiasAzure');
