@@ -14,7 +14,7 @@ const ReportesAzure = () => {
     const [dates, setDates] = useState([])
     const [tweets, setTweets] = useState([])
 
-    var socket = openSocket('http://34.71.233.178:4200');
+    var socket = openSocket('https://backend-sopes.herokuapp.com');
     useEffect(()=> {
         setTimeout(() => {
             socket.emit('getNoticiasAzure');
